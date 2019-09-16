@@ -1,19 +1,19 @@
 @import url("global.css");
 
-article {
+body {
+    max-width: 1250px;
+    margin: 0 auto;
     border-color: navy;
     border-width: 2px;
     border-style: ridge;
     border-radius: 30px;
-}
-img {
-    margin-left: 50%;
-    margin-right: auto;
+    background-color: aliceblue;
 }
 
-br {
-    line-height: 10px;
+img {
+    margin:0 auto;
 }
+
 p {
     padding: 2px;
 }
