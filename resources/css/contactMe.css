@@ -1,1 +1,5 @@
 @import url("global.css");
+
+button {
+    box-shadow: 5px 5px 5px navy;
+}

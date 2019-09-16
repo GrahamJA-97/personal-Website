@@ -1,16 +1,28 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    
-
-
+    text-overflow: ellipsis;
+    border-color: navy;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 30px;
+    background-color: aliceblue;
 }
 
 h1{
     color: navy;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    line-height: 2px;
+}
+
+.navbar{
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
-.card {
-    box-shadow: 1;
-
-}

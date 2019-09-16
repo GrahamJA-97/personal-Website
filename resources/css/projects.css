@@ -9,6 +9,9 @@ tr:nth-child(even){
     background-color: #f2f2f2;
 }
 
+.background {
+    background-image: url(../pics/Little_Stony_Man.jpg);
+}
 
 th {
     padding-top: 12px;
