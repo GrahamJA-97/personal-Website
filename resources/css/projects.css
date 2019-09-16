@@ -8,9 +8,8 @@ td, th {
 tr:nth-child(even){
     background-color: #f2f2f2;
 }
-
-.background {
-    background-image: url(../pics/Little_Stony_Man.jpg);
+tr:nth-child(odd) {
+    background-color: #ddd;
 }
 
 th {
@@ -19,4 +18,18 @@ th {
     text-align: left;
     background-color: navy;
     color: white;
+}
+
+html {
+    background: url(../pics/Switzer_Lake.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-style: none;
+}
+
+table {
+    margin-left: auto;
+    margin-right: 10%;
 }

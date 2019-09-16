@@ -3,3 +3,12 @@
 button {
     box-shadow: 5px 5px 5px navy;
 }
+
+html {
+    background: url(../pics/Little_Stony_Man.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-style: none;
+}
