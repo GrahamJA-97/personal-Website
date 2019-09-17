@@ -1,5 +1,14 @@
 @import url("global.css");
 
+html {
+    background: url(../pics/Switzer_Lake.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 td, th {
     border: 1px solid #ddd;
     padding: 8px;
@@ -12,7 +21,7 @@ tr:nth-child(odd) {
     background-color: #ddd;
 }
 
-th {
+table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
@@ -20,16 +29,8 @@ th {
     color: white;
 }
 
-html {
-    background: url(../pics/Switzer_Lake.JPG) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border-style: none;
+table {
+    margin: 0 auto;
 }
 
-table {
-    margin-left: auto;
-    margin-right: 10%;
-}
+

@@ -1,5 +1,10 @@
 @import url("global.css");
 
+html {
+    background-image: linear-gradient(to bottom right, navy, blue);
+    background-repeat: no-repeat;
+}
+
 body {
     max-width: 1250px;
     margin: 0 auto;
@@ -10,12 +15,9 @@ body {
     background-color: aliceblue;
 }
 
-figure {
-    display: inline-block;
-}
-
-p {
-    padding: 2px;
+figure > img {
+    display: block;
+    float: right;
 }
 
 ul {
@@ -26,8 +28,21 @@ li::before {
     content: "•"; /* Insert content that looks like bullets */
     padding-right: 6px;
     color: navy; /* Or a color you prefer */
-  }
+}
+
+li {
+    list-style-position: inside;
+}
+
+p {
+    display: inline;
+}
 
 .innerNavBar {
     display: none;
+}
+
+#details {
+    margin-left: 8px;
+    margin-right: 8px;
 }
