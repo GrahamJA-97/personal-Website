@@ -10,13 +10,23 @@ body {
     background-color: aliceblue;
 }
 
-img {
-    margin:0 auto;
+figure {
+    display: inline-block;
 }
 
 p {
     padding: 2px;
 }
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 6px;
+    color: navy; /* Or a color you prefer */
+  }
 
 .innerNavBar {
     display: none;
