@@ -20,6 +20,10 @@ figure > img {
     float: right;
 }
 
+figcaption {
+    visibility: hidden;
+}
+
 ul {
     list-style: none;
 }
@@ -34,8 +38,12 @@ li {
     list-style-position: inside;
 }
 
-p {
+article > p {
     display: inline;
+}
+
+footer > p {
+    text-align: center;
 }
 
 .innerNavBar {
@@ -46,3 +54,4 @@ p {
     margin-left: 8px;
     margin-right: 8px;
 }
+
