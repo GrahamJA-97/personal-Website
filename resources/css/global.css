@@ -1,36 +1,4 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    text-overflow: ellipsis;
+img {
+    max-width: 100%;
+    height: auto;
 }
-
-h1 {
-    color: navy;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    line-height: 2px;
-}
-
-p {
-    font-size: 16px;
-    font-weight: 100;
-}
-
-textarea {
-    resize: none;
-}
-
-.navbar{
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.centerContent {
-    text-align: center;
-}
-
-
-
-
