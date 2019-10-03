@@ -35,11 +35,10 @@
     <br>
 
     <main class="container-fluid">
-
-
-        <section class="row justify-content-center" id="contactDetails">
-            <h2>Contact Me Below</h2>
-            <ul class="list-group list-group-horizontal-sm">
+        <section class="jumbotron" id="contactDetails">
+            <h1 class="display-2 text-center">Contact Me Below</h1>
+            <hr class="my-4">
+            <ul class="list-group list-group-horizontal-sm justify-content-center">
                 <li class="list-group-item">
                     <a href="mailto:jake@graham4.org">Jake@Graham4.org</a>
                 </li>
@@ -59,27 +58,29 @@
             </ul>
         </section>
 
+        <div class="col-md-12">
+            <img src="./resources/pics/Little_Stony_Man.jpg" alt="" class="img-fluid rounded">
+        </div>
+
         <br>
 
         <form>
             <div class="form-group">
                 <label for="Name">Full Name</label>
-                <input type="text" name="" id="" class="form-control">
+                <input type="text" name="Name" id="Name" class="form-control">
             </div>
             <div class="form-group">
                 <label for="Email">Email</label>
-                <input type="email" name="" id="" class="form-control">
+                <input type="email" name="Email" id="Email" class="form-control">
             </div>
             <div class="form-group">
                 <label for="Comments">Any comments/questions/notes for me?</label>
                 <textarea name="Comments" id="Comments" cols="30" rows="10" class="form-control"></textarea>
             </div>
-            <div>
-
+            <div class="row justify-content-center">
+                <button class="btn btn-outline-primary">Submit</button>
             </div>
-            <button class="btn btn-primary">Submit</button>
         </form>
-
     </main>
 
     <br>

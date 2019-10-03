@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
         <a class="navbar-brand" href="./index.html">Jake Graham</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,33 +32,61 @@
         </div>
     </nav>
 
+    <br>
+
     <main class="container-fluid">
-        <h1>Table of Projects (Completed, Planned and In Progress)</h1>
-        <a href="https://github.com/GrahamJA-97" target="_blank" rel="noopener noreferrer">More on GitHub!</a>
-        <table class="table table-bordered">
-            <thead>
+        <section class="jumbotron justify-content-center">
+            <h1 class="display-4 text-center">Table of Projects</h1>
+            <hr class="my-4">
+            <p class="">
+                Below is a table of the projects that I have planned, am currently working on and that I have already
+                completed! Not to mention there is more on <a href="https://github.com/GrahamJA-97" target="_blank"
+                    rel="noopener noreferrer">GitHub</a>!
+            </p>
+        </section>
+
+        <table class="table table-bordered table-hover text-center">
+            <thead class="thead-dark">
                 <tr>
-                    <th>Project Name</th>
-                    <th>Languages/Framework/Os</th>
-                    <th>Progress?</th>
+                    <th scope="col">#</th>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Languages/Framework/Os</th>
+                    <th scope="col">Progress?</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
+            <tbody class="">
+                <tr class="table-success">
+                    <th scope="row">1</th>
                     <td>Samba File Server</td>
                     <td>Ubuntu 18 Server</td>
                     <td>Completed</td>
                 </tr>
-                <tr>
+                <tr class="table-success">
+                    <th scope="row">2</th>
                     <td>PiHole DNS based Ad-sinkhole</td>
                     <td>Raspbian and Python</td>
                     <td>Completed</td>
                 </tr>
                 <tr>
+                    <th scope="row">3</th>
                     <td>House Plant Watering Scheduler</td>
-                    <td>Java, Angular </td>
+                    <td>Java, SQL, Angular </td>
                     <td>In Progress</td>
                 </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Personal Website</td>
+                    <td>HTML, Bootstrap, JavaScript</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Centralized Recipe Application</td>
+                    <td>Evernote -> Java, SQL, Angular</td>
+                    <td>Planned to redesign</td>
+                </tr>
+                
+
             </tbody>
         </table>
 
